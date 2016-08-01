@@ -1,0 +1,21 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int num1,num2,num3,num4,suma,promedio;
+		Console.WriteLine("ingrese primer numero");
+		num1=int.Parse(Console.ReadLine());
+	Console.WriteLine("ingrese segundo numero");
+		num2=int.Parse(Console.ReadLine());
+		Console.WriteLine("ingrese terce numero");
+		num3=int.Parse(Console.ReadLine());
+		Console.WriteLine("ingrese cuarto numero");
+		num4=int.Parse(Console.ReadLine());
+		suma=num1+num2+num3+num4;
+		promedio= suma/4;
+		Console.WriteLine("el promedio es de:{0}", promedio);
+			
+	}
+}
