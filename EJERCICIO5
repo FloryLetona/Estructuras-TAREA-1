@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int num1,num2,num3,multiplicacion;
+		Console.WriteLine("ingrese primer numero");
+		num1=int.Parse(Console.ReadLine());
+		Console.WriteLine("ingrese segundo numero");
+		num2=int.Parse(Console.ReadLine());
+		Console.WriteLine("ingrese tercer numero");
+		num3=int.Parse(Console.ReadLine());
+		multiplicacion=num1*num2*num3;
+		Console.WriteLine("la multiplicacion es:{0}",multiplicacion);
+	}
+}
