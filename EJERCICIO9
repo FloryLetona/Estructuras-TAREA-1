@@ -1,0 +1,22 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int X,Y,Z,SUMA1,MULTIPLICACION,SUMA2,MULTIPLICACION1;
+		Console.WriteLine("ingrese X");
+		X=int.Parse(Console.ReadLine());
+    	Console.WriteLine("ingrese Y");
+		Y=int.Parse(Console.ReadLine());
+		Console.WriteLine("ingrese Z");
+		Z=int.Parse(Console.ReadLine());
+		SUMA1=X+Y;
+		MULTIPLICACION= SUMA1*Z;
+		Console.WriteLine("(x + y) · z:{0}", MULTIPLICACION);
+		SUMA2=X+Y;
+		MULTIPLICACION1= SUMA2*Z;
+			Console.WriteLine(" x + x · y · z:{0}", MULTIPLICACION1);
+
+	}
+}
