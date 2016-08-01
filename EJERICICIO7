@@ -1,0 +1,31 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int num1,multiplicacion1 ,multiplicacion2,multiplicacion3,multiplicacion4,multiplicacion5,multiplicacion6,multiplicacion7,multiplicacion8,multiplicacion9,multiplicacion10;
+		Console.WriteLine("ingrese numero a operar");
+		num1=int.Parse(Console.ReadLine());
+		multiplicacion1=num1;
+		Console.WriteLine("*1 es:{0}",multiplicacion1);
+        multiplicacion2=num1*2;
+		Console.WriteLine("*2 es:{0}",multiplicacion2);
+        multiplicacion3=num1*3;
+		Console.WriteLine("*3 es:{0}",multiplicacion3);	
+multiplicacion4=num1*4;
+		Console.WriteLine("*4 es:{0}",multiplicacion4);	
+multiplicacion5=num1*5;
+		Console.WriteLine("*5 es:{0}",multiplicacion5);	
+multiplicacion6=num1*6;
+		Console.WriteLine("*6 es:{0}",multiplicacion6);	
+multiplicacion7=num1*7;
+		Console.WriteLine("*7 es:{0}",multiplicacion7);	
+multiplicacion8=num1*8;
+		Console.WriteLine("*8 es:{0}",multiplicacion8);	
+multiplicacion9=num1*9;
+		Console.WriteLine("*9 es:{0}",multiplicacion9);	
+multiplicacion10=num1*10;
+		Console.WriteLine("*10 es:{0}",multiplicacion10);			
+	}
+}
